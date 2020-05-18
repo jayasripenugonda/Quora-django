@@ -1,0 +1,35 @@
+{% extends "Pages/Base.html" %}
+{% block content %} 
+   <div class="container">
+    <br/>
+    <br/>
+    <h2>Profile Update :</h2>
+    <form method="POST" action="profile.html">
+        <fieldset class="form-group">
+          <br/>
+            <h5>Full Name :</h5>
+            <br/>
+            <input type="text" placeholder="Test User"><br>
+            <br>
+            <h5>Username :</h5>
+            <br/>
+            <input type="text" placeholder="test_user"><br>
+            <br>
+            <h5> Email ID :</h5>
+            <br/>
+            <input type="text" placeholder="Username@email.com "><br>
+            <br>
+            <h5> Bio</h5>
+            <br/>
+            <input type="text" placeholder="Tell something about you" style="width:400px;height:100px;border:2px pale"><br>
+        </fieldset>
+        <div>
+            <button class="btn btn-outline-info" type="submit">Update</button>
+        </div>
+    </form>
+  </div>
+     
+
+{% endblock content %}
+    
+    

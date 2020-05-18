@@ -1,0 +1,26 @@
+{% extends "Pages/Base.html" %}
+{% block content %} 
+   <div class="container">
+    <br/>
+    <br/>
+
+    <h2> Ask a Question : </h2>
+    <br/>
+    <br/>
+    <h5> Enter your question here : </h5>
+    <br/>
+    <form method="POST" action="homepage.html">
+      <input type="text" placeholder="Enter your Text" style="width:500px;height:100px;border:2px solid ">
+      <br/>
+      <br/>
+      <button class="btn btn-outline-info">Submit</button>
+    </form>
+    <br/>
+    <br/>
+    <br/>    
+    <p class="alert alert-info">* Your question will be uploaded as soon as you click on "Submit". It will answered by our other users.</p>
+  </div>
+
+{% endblock content %}
+    
+    

@@ -1,0 +1,38 @@
+{% extends "Pages/Base.html" %}
+{% block content %} 
+   <div class="container">
+      <br/>
+      <br/>
+
+      <form method="POST" action="homepage.html">
+        <h2>Log In :</h2>
+        <div>
+          <br/>
+          <h4>Username :</h4>
+          <br/>
+          <input class="input-field" type="text" placeholder="Username" name="username">
+          <br>
+          <br>
+        </div>
+        <div class="input-container">
+          <h4>Password :</h4>
+          <br/>
+
+          <input class="input-field" type="password" placeholder="Password" name="psw">
+          <br>
+          <br>
+        <div>
+            <button class="btn btn-outline-info" type="submit">Log In</button>
+            <small><a href="#">Forgot Password?</a></small>
+        </div>
+      </form>
+      <br>
+      <small>
+        Need An Account? <a class="ml-2" href="register.html">Sign up</a>
+      </small>
+    </div>
+     
+
+{% endblock content %}
+    
+    
